@@ -1,0 +1,507 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+
+@font-face {
+    font-family: Helvetica_font;
+    src: url(Helvetica-Font/Helvetica-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Helvetica_font;
+}
+
+.sony_bar {
+    background: black;
+    height: 5vh;
+}
+
+.sony_bar img {
+    margin-left: 94%;
+    margin-top: 8px;
+}
+
+.nav img {
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ select {
+   color: gray;
+    border: none;
+    font-weight: 300;
+}
+
+.sign_in_btn button {
+    margin: 10px 30px 0 0;
+    border: none;
+    background: #0070cc;
+    color: white;
+    padding: 5px 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign_in_btn button:hover {
+    background: #003697;
+}
+
+.sign_in_btn i {
+    margin: 10px 30px 0 0;
+}
+
+
+
+
+/* nav propertiys */
+
+
+.navB{
+   padding-top: 20px;
+   height: 10vh;
+   /* background-color: #0070cc; */
+   text-align: center;
+}
+.Bnav{
+   margin: 3px;
+   padding: 3px 5px 3px 5px;
+   font-weight: 700;
+   border-radius: 30px;
+   background: none;
+   border: none;
+   height: 3.5vh;
+   font-size: 15px;
+}
+
+
+
+/* backgraund image and heding propertiys */
+
+.img-heding{
+    position: relative;
+    overflow: hidden;
+}
+
+.Bnav:hover{
+    background-color: #CED5DA;
+}
+.heding{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    color: white;
+}
+.paragraf{
+    font-size: 45px;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heding p{
+    margin: 40px 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.BH{
+    border: none;
+    border-radius: 30px;
+width: 200px;
+height: 40px;
+font-size: 15px;
+font-weight: 700;
+background-color: #4574B2;
+color: white;
+}
+
+
+
+/* What's under the hood? propertiys */
+
+.uder{
+    text-align: center;
+}
+.uder p{
+    font-weight: 50;
+    font-size: 40px;
+    margin: 50px 0px 40px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.uderButton{
+    align-items: center;
+    width: 272px;
+    margin: 0 auto; 
+    border-radius: 30px;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(39, 38, 38, 0.8);
+    background-color: #eaebed;
+}
+.uderButton:hover{
+
+    box-shadow: 0 4px 8px rgba(39, 38, 38, 0.8);
+}
+.uderB{
+   border: none;
+    padding: 15px;
+    border-radius: 30px;
+   
+    font-weight: 300;
+}
+.uderB:hover{
+ color: white;
+    background-color: #0070CC;
+}
+
+/* product name propertiys */
+
+.products{
+    /* background-color: #0070CC; */
+    width: 100%;
+    padding: 0px 90px;
+    margin-top: 60px;
+}
+.products p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 20px 0px;
+}
+
+/* Product name propertiys */
+.PN{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: baseline;
+    padding-left: 20px;
+}
+.PN p{
+    margin-left: 110px;
+}
+
+/* Product code propertiys */
+
+.PC{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+}
+.PC p{
+    margin-left: 113px;
+}
+
+
+/* Main processor propertiys */
+
+.MP{
+    background-color: #F5F5F5;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+}
+.MP  p {
+     margin-left: 99px;
+ }
+
+ /* Memory propertiys */
+
+ .Memory{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+ }
+ .Memory p {
+    margin-left: 157px;
+}
+
+/* Storage size* propertiys */
+
+.SS{
+    background-color: #F5F5F5;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+}
+.SS p {
+    margin-left: 120px;
+}
+
+/* External dimensions propertiys */
+
+
+.Ed{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+}
+.Ed p {
+    margin-left: 67px;
+}
+
+/* Mass propertiys */
+
+.Mass{
+    background-color: #F5F5F5;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+}
+.Mass p {
+    margin-left: 190px;
+}
+
+/* BD/ DVD drive (read only) propertiys */
+
+.BDDVD{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+}
+.BDDVD p {
+    margin-left: 119px;
+}
+
+/* Input/ Output propertiys */
+.IO{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: baseline;
+    padding-left: 20px;
+
+}
+.IO p {
+    margin-left: 126px;
+}
+
+/* Networking propertiys */
+
+.Net{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+
+}
+.Net p {
+    margin-left: 138px;
+}
+
+
+ /* Power propertiys */
+
+ .Power{
+    background-color: #F5F5F5;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+ }
+ .Power p {
+    margin-left: 180px;
+}
+
+/* Power consumption propertiys */
+
+.Poco{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+}
+.Poco  p {
+     margin-left: 76px;
+ }
+
+ /* Operating Temperature propertiys */
+
+ .OT{
+    background-color: #F5F5F5;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+ }
+ .OT p {
+    margin-left: 55px;
+}
+
+/* AV output  propertiys */
+
+.AO{
+    background-color: #FFFFFF;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+}
+.AO p {
+     margin-left: 155px;
+ }
+
+
+ /* PS4 Pro features propertiys */
+
+ .bottomheding{
+    text-align: center;
+    margin-top: 60px;
+  
+ }
+ .hbh{
+    font-size: 35px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 10px;
+
+ }
+ p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+ /* bottombuttons propertiys */
+
+
+ .bottombuttons{
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(39, 38, 38, 0.8);
+    background-color: #eaebed;
+    text-align: center;
+    margin-top: 40px;
+ }
+ .bottombuttons:hover{
+    
+    box-shadow: 0 4px 8px rgba(39, 38, 38, 0.8);
+ }
+ .BButtons{
+    border: none;
+        padding: 15px;
+        border-radius: 30px;
+        font-weight: 300;
+ }
+  .BButtons:hover{
+        color: white;
+        background-color: #0070CC;
+  }
+
+
+
+ /* bottom buttons heding propertiys */
+
+ .hbhb{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    padding: 0px 80px;
+ }
+ .bpbp {
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+ }
+ .PS4ProHD, .Kgaming, .Native4K
+  {
+    height: 25vh;
+    margin: 0px 20px;
+ }
+
+
+ /* footer propertiys */
+
+
+  .svgimg{
+    margin-top: 40px;
+  }
+
+
+  
+
+  section{
+    background-color: #00439C;
+    padding: 0px 80px;
+  }
+
+  .fp p{
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+  }
+
+  /* this footer collums propertiys */
+  
+  footer{
+    display: flex;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke ;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+ 
+  ul{
+    margin-top: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    list-style: none;
+   
+  }
+  li{
+    text-decoration: none;
+    margin: 10px 0px ;
+   
+  }
+ li:hover{
+    color: rgb(156, 154, 176);
+
+  }
+  i{
+    margin: 5px;
+  }
+
+
+  .dounimgd-i-v{
+    border-bottom:1px solid whitesmoke ;
+  }
+
+  .dounimgd-i-v p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+  }
+   a{color: white;}
+
+  .cuntry{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
